@@ -1,0 +1,52 @@
+Name: Cars
+Type: FolderType
+Children:
+- Name: Car1
+  Id: g=ad9e27104c21a8f48822467113b7e8aa
+  Supertype: BaseCar
+  ReferenceType: HasComponent
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=14;%PROJECTDIR%/Car1.png"
+  - Name: CarLogic
+    Type: NetLogic
+- Name: Car2
+  Id: g=4dc5f30a41aeeb4b886b4a018a78d569
+  Supertype: BaseCar
+  ReferenceType: HasComponent
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=14;%PROJECTDIR%/Car2.png"
+  - Name: CarLogic
+    Type: NetLogic
+- Name: Car3
+  Id: g=69812f29f9ea30d160a46b219d550d47
+  Supertype: BaseCar
+  ReferenceType: HasComponent
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=14;%PROJECTDIR%/Car3.png"
+  - Name: CarLogic
+    Type: NetLogic
+- Name: Car4
+  Id: g=e0ce4d5f829e316ffddbfbb7612fe0bc
+  Supertype: BaseCar
+  ReferenceType: HasComponent
+  Children:
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=14;%PROJECTDIR%/Car4.png"
+  - Name: CarLogic
+    Type: NetLogic
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 80.0

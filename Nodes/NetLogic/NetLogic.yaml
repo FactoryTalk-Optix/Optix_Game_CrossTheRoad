@@ -1,0 +1,17 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: GameLogic
+  Id: g=47000167315c5e4642c9c478bc36c216
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: StartGame
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"mainWindow","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
